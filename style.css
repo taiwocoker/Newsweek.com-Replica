@@ -1,7 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #f4f5f6;
     color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
 }
+
 .page {
 	background-color: #fff;
 	margin-left: 100px;
@@ -63,3 +72,177 @@ body {
     display: none;
 }
 
+.feature {
+    padding: 12px 5px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #9a9ab7;
+    display: block;
+}
+  
+.left-container,
+.center-container {
+    margin: 10px 0;
+}
+
+.left-container-img img,
+.pandemic-image img,
+.opinion-image img,
+.center-container-img img,
+.news-image img,
+.us-image img,
+.magazine-img-container-sec-2 img,
+.section-3-container-img img,
+.section-4-container-img img,
+.section-10-img-1,
+.section-10-img-2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.left-container-img a,
+.center-container-img a,
+.magazine-img-container a,
+.section-3-container-img a,
+.magazine-text {
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+  color: #ff0500;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.section-4-container-title {
+    font-size: 17px;
+}
+  
+.left-container-title,
+.center-container-title,
+.story-title,
+.magazine-description p,
+.section-3-container-title,
+.section-4-container-title {
+    font-weight: 750;
+    overflow-wrap: break-word;
+}
+  
+.left-container-title:hover,
+.center-container-title:hover,
+.story-title:hover,
+.magazine-description p:hover,
+.section-3-container-title:hover,
+.section-4-container-title:hover {
+    text-decoration: underline;
+    text-decoration-color: #ff0500;
+    cursor: pointer;
+}
+  
+.footer-links a {
+    font-size: 14px;
+}
+  
+.pandemic-image a {
+    display: block;
+    font-size: 14px;
+    color: #272727;
+    padding: 2px 10px 2px 0;
+    background-color: #c2d4d7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.pandemic-image a:hover {
+    background-color: #272727;
+    color: #c2d4d7;
+}
+
+.pandemic-title {
+    font-size: 18px;
+    color: black;
+    padding-top: 10px;
+}
+  
+.pandemic-text {
+    font-size: 13px;
+    color: #95a0a1;
+}
+  
+.story-container {
+    border-top: 1px solid #95a0a1;
+}
+  
+.story-text {
+    color: #95a0a1;
+}
+  
+.opinion-image {
+    width: 90px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+  
+.opinion-text {
+    color: gray;
+    font-size: 12px;
+}
+  
+.opinion-title,
+.news-title {
+    text-decoration: none !important;
+    font-size: 13px;
+}
+  
+.opinion-container {
+    border-bottom: 0.5px solid #95a0a1;
+}
+
+.section-headers {
+    border-bottom: 1px solid #95a0a1;
+}
+  
+.section-header {
+    border-top: 1px solid grey;
+}
+  
+.bg-grey {
+    background-color: #f4f5f6;
+}
+  
+.footer-logo {
+    border-bottom: 1px solid #f4f5f6;
+}
+  
+.top-left {
+    padding-left: 40px;
+}
+  
+.section-10-img-1,
+.section-10-img-2 {
+    width: 170px;
+    height: 230px;
+}
+  
+.subscribe-image-container {
+    position: relative;
+}
+  
+  .section-10-img-2 {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    z-index: 1;
+  }
+  
+  .newsletter-img {
+    object-fit: cover;
+    width: 190px;
+    height: 280px;
+  }
