@@ -72,6 +72,16 @@ body {
     display: none;
 }
 
+.bg-red.small-logo {
+    width: 28px;
+    background-color: #f72210;
+    margin-right: 5px;
+}
+
+.small {
+    color: #000;
+}
+
 .feature {
     padding: 12px 5px 0 0;
     font-weight: bold;
