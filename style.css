@@ -151,6 +151,7 @@ a {
 
 .fa-bars {
   display: none;
+  color: #fb9a94;
 }
 
 .small-newsweek {
@@ -355,8 +356,14 @@ a {
   .second-nav,
   .header-bottom-overlay,
   .big-newsweek,
-  .date {
+  #date {
     display: none;
+  }
+
+  .text-light.ml-3.pt-3.weather {
+    position: relative;
+    left: -103px;
+    top: -4px;
   }
 
   .small-newsweek,
@@ -381,9 +388,13 @@ a {
     height: 150px;
   }
 
-  .nav-subscribe {
-    width: 60px;
+  #subscribe {
+    width: 121px;
     text-align: center;
     padding-top: 5px;
+  }
+
+  .weather {
+    display: none;
   }
 }
